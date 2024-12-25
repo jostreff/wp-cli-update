@@ -5,4 +5,4 @@ sudo -u nobody -g nobody -- /usr/local/bin/wp --path=/usr/local/www/ostreff.info
 sudo -u nobody -g nobody -- /usr/local/bin/wp --path=/usr/local/www/ostreff.info/ theme update --all
 sudo -u nobody -g nobody -- /usr/local/bin/wp --path=/usr/local/www/ostreff.info/ language core update
 sudo -u nobody -g nobody -- /usr/local/bin/wp --path=/usr/local/www/ostreff.info/ language plugin update --all
-sudo -u nobody -g nobody -- /usr/local/bin/wp --path=/usr/local/www/ostreff.info/ language plugin theme --all
+sudo -u nobody -g nobody -- /usr/local/bin/wp --path=/usr/local/www/ostreff.info/ language theme update --all
