@@ -12,7 +12,8 @@ endif
 set sites = ( \
     "/usr/local/www/ostreff.info/" 
 )
-set wp_cli = "sudo -u nobody -g nobody -- /usr/local/bin/wp"
+
+set wp_cli = "sudo -u nobody -g nobody WP_CLI_CACHE_DIR=$WP_CLI_CACHE_DIR -- /usr/local/bin/wp"
 set wp_req = "--require=/usr/local/bin/force_wp_use_ipv4.php"
 
 if ( ! -f /usr/local/bin/force_wp_use_ipv4.php ) then
